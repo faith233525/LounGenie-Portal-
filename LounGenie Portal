@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LounGenie Support Portal Preview</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #F8FAFB;
+      margin: 0;
+      color: #333333;
+    }
+    h1 {
+      color: #002B4C;
+      margin-bottom: 24px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background: #fff;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 10px rgba(0,91,140,0.08);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 12px 15px;
+      border-bottom: 1px solid #F8FAFB;
+      text-align: left;
+      color: #333333;
+    }
+    th {
+      background: #00B5CC;
+      color: #fff;
+      font-weight: 600;
+      border-bottom: 2px solid #005a8d;
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+    .actions-cell {
+      text-align: center;
+      white-space: nowrap;
+    }
+    .action-btn {
+      background: #005a8d;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      font-size: 0.98em;
+      margin: 0 2px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .action-btn:hover {
+      background: #00B5CC;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 28px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,91,140,0.07);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Support Portal – All Partners</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Company Name</th>
+          <th>Management Company</th>
+          <th>Number of Units</th>
+          <th>Address</th>
+          <th>Phone Number</th>
+          <th>Master Code</th>
+          <th>Sub Master Code</th>
+          <th>Lock</th>
+          <th>Top Colour</th>
+          <th>Key</th>
+          <th>Lock Part</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Blue Lagoon Resort</td>
+          <td>Lagoon Mgmt Inc</td>
+          <td>24</td>
+          <td>123 Ocean Drive, Miami, FL</td>
+          <td>(305) 555-1234</td>
+          <td>MLG123</td>
+          <td>SMLG45</td>
+          <td>Yale</td>
+          <td>Blue</td>
+          <td>K-12345</td>
+          <td>Handle</td>
+          <td class="actions-cell">
+            <button class="action-btn">Tickets</button>
+            <button class="action-btn">Maintenance</button>
+            <button class="action-btn">Install</button>
+            <button class="action-btn">Upgrade</button>
+            <button class="action-btn">Opening Date</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Sunny Shores Villas</td>
+          <td>Shoreline Partners</td>
+          <td>15</td>
+          <td>456 Beach Blvd, Naples, FL</td>
+          <td>(239) 555-6789</td>
+          <td>SSV789</td>
+          <td>SSV101</td>
+          <td>Schlage</td>
+          <td>Yellow</td>
+          <td>K-67890</td>
+          <td>Latch</td>
+          <td class="actions-cell">
+            <button class="action-btn">Tickets</button>
+            <button class="action-btn">Maintenance</button>
+            <button class="action-btn">Install</button>
+            <button class="action-btn">Upgrade</button>
+            <button class="action-btn">Opening Date</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
